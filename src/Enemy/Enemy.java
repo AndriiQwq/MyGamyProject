@@ -1,12 +1,15 @@
+package Enemy;
+
 public class Enemy {
 
 
     private float Attack_power;
-    private EnemyType enemyType;
+    public boolean active;
 
-    public Enemy(EnemyType enemyType, float Attack_power){
-        this.enemyType = enemyType;
+
+    public Enemy(float Attack_power, boolean active){
         this.Attack_power = Attack_power;
+        this.active = active;
     }
 
 

@@ -22,7 +22,7 @@ bg=GREEN</panel_attributes>
       <w>70</w>
       <h>21</h>
     </coordinates>
-    <panel_attributes>Fighter
+    <panel_attributes>Fighter.Fighter
 bg=CYAN</panel_attributes>
     <additional_attributes/>
   </element>
@@ -34,7 +34,7 @@ bg=CYAN</panel_attributes>
       <w>70</w>
       <h>21</h>
     </coordinates>
-    <panel_attributes>Enemy
+    <panel_attributes>Enemy.Enemy
 bg=RED</panel_attributes>
     <additional_attributes/>
   </element>
@@ -46,7 +46,7 @@ bg=RED</panel_attributes>
       <w>98</w>
       <h>21</h>
     </coordinates>
-    <panel_attributes>DefenseStructure
+    <panel_attributes>DefenseStructure.DefenseStructure
 fg=BLACK
 bg=GREEN</panel_attributes>
     <additional_attributes/>
@@ -93,11 +93,11 @@ attack()</panel_attributes>
       <w>70</w>
       <h>49</h>
     </coordinates>
-    <panel_attributes>Typ Of Enemy 
+    <panel_attributes>Typ Of Enemy.Enemy
 --
-    Goblin,
-    Skeleton,
-    Orc,
+    Enemy.Goblin,
+    Enemy.Skeleton,
+    Enemy.Orc,
 bg=RED
 fg=BLACK</panel_attributes>
     <additional_attributes/>
@@ -146,11 +146,11 @@ bg=RED</panel_attributes>
       <w>70</w>
       <h>49</h>
     </coordinates>
-    <panel_attributes>Typ Of Fighter
+    <panel_attributes>Typ Of Fighter.Fighter
 --
-	 WARRIOR,
-    ARCHER,
-    MAGE,
+	 Fighter.WARRIOR,
+    Fighter.ARCHER,
+    Fighter.MAGE,
 fg=BLACK
 bg=CYAN</panel_attributes>
     <additional_attributes/>
@@ -212,9 +212,9 @@ bg=CYAN</panel_attributes>
     </coordinates>
     <panel_attributes>Typ Of Defense Structure
 --
-    Wall,
-    Tower,
-    Stronghold,
+    DefenseStructure.Wall,
+    DefenseStructure.Tower,
+    DefenseStructure.Stronghold,
 fg=BLACK
 bg=GREEN</panel_attributes>
     <additional_attributes/>

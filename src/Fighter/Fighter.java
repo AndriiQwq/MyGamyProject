@@ -1,11 +1,13 @@
+package Fighter;
+
 public class Fighter {
 
     private float strength;
-    private FighterType fighterType;
+    public boolean active;
 
-    public Fighter(FighterType fighterType, float strength) {
-        this.fighterType = fighterType;
+    public Fighter(float strength, boolean active) {
         this.strength = strength;
+        this.active = active;
     }
 
     public void Attack(){
