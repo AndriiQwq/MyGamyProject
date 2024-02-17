@@ -4,8 +4,16 @@ import DefenseStructure.DefenseStructure;
 
 public class Tower extends DefenseStructure {
 
-    public Tower(float The_power_of_defence, boolean created){
-        super(The_power_of_defence, created);
+    private int Tower_count = 0;
+    public Tower(float defence, boolean created){
+        super(defence, created);
+        defence += 5;
+        Tower_count++;
+    }
+
+    public void info(){
+        System.out.println( "Tower count: "+ Tower_count);
+        System.out.println( "Defence of Tower: "+ 5 * Tower_count);
     }
 
 }

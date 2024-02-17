@@ -7,8 +7,12 @@ import java.util.Scanner;
 
 public class Fortress {
 
-    public float health = 100;
-    public float gold = 100;
+    public float health;
+    public static float gold = 100;
+
+    public Fortress(float health, float gold){
+
+    }
 
     public void Construction_of_defences(){
         System.out.println(

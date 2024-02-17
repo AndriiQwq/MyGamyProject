@@ -1,12 +1,15 @@
 package Fighter;
 
+import java.util.Objects;
+import java.util.Scanner;
+
 public class Fighter {
 
-    private float strength;
+    protected static float attack;
     public boolean active;
 
-    public Fighter(float strength, boolean active) {
-        this.strength = strength;
+    public Fighter(float attack, boolean active) {
+        Fighter.attack += attack;
         this.active = active;
     }
 
@@ -18,5 +21,8 @@ public class Fighter {
 
     }
 
+    public void attack_info(){
+        System.out.println("Attack: " + attack);
+    }
 
 }
