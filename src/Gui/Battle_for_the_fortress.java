@@ -140,37 +140,4 @@ public class Battle_for_the_fortress {
         scanner.close();// Закрытие Scanner после использования (необязательно, но рекомендуется)
     }
 
-
-
-
-
-
-
-
-    //WARRIOR warrior4 = new WARRIOR(3, true);
-    //warrior4.info();
-//        info(new WARRIOR(0, true), new ARCHER(0, true), new MAGE(0, true), new Fighter(0, true),
-//                new Wall(0, true), new Tower(0, true), new Stronghold(0, true), new DefenseStructure(( float) 0, true) {
-//                }
-//        );
-//        info(null, null, null, null, null, null, null, null);
-
-//    private static void info(WARRIOR warrior, ARCHER archer, MAGE mage, Fighter fighter,
-//                             Wall wall, Tower tower, Stronghold stronghold, DefenseStructure defenseStructure
-//
-//    ) {
-//        warrior.info();
-//        archer.info();
-//        mage.info();
-//        fighter.attack_info();
-//
-//        wall.info();
-//        tower.info();
-//        stronghold.info();
-//        defenseStructure.def_info();
-//    }
-
-
-
-
 }

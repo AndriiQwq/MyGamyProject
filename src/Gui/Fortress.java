@@ -73,7 +73,7 @@ public class Fortress {
             System.out.println("You win");
             System.exit(0);
         }
-        float attack = DefenseStructure.defence + Fighter.attack - (float) (attackAll() * 0.3);
+        float attack = DefenseStructure.defence + Fighter.attack - (float) (attackAll() * 0.2);
         if (attack <= 0) {
             health += attack;
             System.out.println("Вам нанесли: " + (-attack) + " урона");
