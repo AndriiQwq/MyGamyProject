@@ -9,6 +9,7 @@ public abstract class DefenseStructure {
     public DefenseStructure(float defence, boolean active){
         DefenseStructure.defence += defence;
         this.active = active;
+        def_info();
     }
 
     public void def_info(){

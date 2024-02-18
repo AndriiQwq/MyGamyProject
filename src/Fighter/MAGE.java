@@ -2,11 +2,11 @@ package Fighter;
 
 public class MAGE extends Fighter{
 
-    private int MAGE_count = 0;
+    private static int MAGE_count = 0;
     public MAGE(float attack, boolean active){
         super( attack, active);
-        attack += 7;
         MAGE_count++;
+        info();
     }
 
     public void info(){

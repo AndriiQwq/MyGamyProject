@@ -9,7 +9,7 @@
       <w>119</w>
       <h>35</h>
     </coordinates>
-    <panel_attributes>Fortress
+    <panel_attributes>Gui.Fortress
 fg=BLACK
 bg=GREEN</panel_attributes>
     <additional_attributes/>

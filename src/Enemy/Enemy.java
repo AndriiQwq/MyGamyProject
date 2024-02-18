@@ -1,20 +1,26 @@
 package Enemy;
 
-public class Enemy {
+public abstract class Enemy {
 
 
-    private float Attack_power;
-    public boolean active;
+    public static float damage;
+    public static float Attack_power;
+
+    public static int count;
+    protected boolean active;
 
 
-    public Enemy(float Attack_power, boolean active){
-        this.Attack_power = Attack_power;
+    public Enemy(float Attack_power, int count, boolean active){
+        Enemy.Attack_power = Attack_power;
+        Enemy.count = count;
         this.active = active;
     }
 
-
-    public void Damage_to_the_fortress(){
-
+    public static void attack_all() {
+        damage = Goblin.attack() + Orc.attack() + Skeleton.attack();
     }
+
+
+    public abstract void Damage_to_the_fortress();
 
 }
